@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FilterByLanguage Component matches snapshot 1`] = `
+<DocumentFragment>
+  <select
+    aria-label="Select language"
+    class="form-select"
+    style="width: 200px;"
+  >
+    <option
+      value=""
+    >
+      Filter by Language
+    </option>
+    <option
+      value="English"
+    >
+      English
+    </option>
+    <option
+      value="Spanish"
+    >
+      Spanish
+    </option>
+    <option
+      value="French"
+    >
+      French
+    </option>
+    <option
+      value="German"
+    >
+      German
+    </option>
+  </select>
+</DocumentFragment>
+`;

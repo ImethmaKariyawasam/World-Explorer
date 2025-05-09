@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#1976d2" /> <!-- Changed to match your Material-UI primary color -->
+    
+    <!-- Favicon - consider adding a country-themed one -->
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    
+    <!-- Better description for SEO -->
+    <meta
+      name="description"
+      content="Explore countries around the world with detailed information including population, region, capital, and languages"
+    />
+    
+    <!-- App title -->
+    <title>Country Explorer | World Countries Information</title>
+    
+    <!-- Removed apple-touch-icon since we're not providing custom icons -->
+    <!-- Removed manifest.json link unless you're making a PWA -->
+  </head>
+  <body>
+    <noscript>
+      <div style="padding: 1rem; text-align: center; background: #ffebee; color: #c62828;">
+        <strong>JavaScript is required to run this application.</strong> 
+        Please enable JavaScript in your browser settings.
+      </div>
+    </noscript>
+    <div id="root"></div>
+    
+    <!-- Consider adding loading animation for better perceived performance -->
+    <style>
+      #root {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+      }
+    </style>
+  </body>
+</html>
